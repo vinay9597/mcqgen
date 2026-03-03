@@ -1,0 +1,5 @@
+download and install vs code.
+Git init
+conda  create -p env python=3.8 -y
+source activate  ./env
+touch .ignore
