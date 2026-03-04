@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mcqgen
+Version: 0.1.0
+Author: Vinay Yachamaneni
+Author-email: vinay80965@gmail.com
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: pyPDF2
