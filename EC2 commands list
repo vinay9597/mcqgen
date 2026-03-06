@@ -1,0 +1,38 @@
+Open a AWS Account and Create a EC2 Instance in Ubuntu. After machine is running run the below commands.
+
+sudo apt update
+
+sudo apt-get update
+
+sudo apt upgrade -y
+
+sudo apt install git curl unzip tar make sudo vim wget -y
+
+git clone link of the repository web git address MCQGenerator.
+
+ls
+
+cd directory of project name 
+
+ls 
+
+### If you want to add openai api key
+
+touch .env
+
+ls -al
+
+vi .env
+OPENAI_API_KEY="xxxxxxxxxxxxxxxxxxx"
+
+cat .env
+
+sudo apt install python3-pip 
+
+pip3 install -r requirements.txt
+
+python3 -m streamlit run StreamlitAPP.py
+
+go with security group and add the inbound rule for streamlit add the port no is 8501 and flask add the port no is 5000.
+
+
